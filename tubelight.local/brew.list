@@ -1,5 +1,6 @@
 adns
 apache-flink
+apache-spark
 aria2
 autoconf
 autojump
@@ -42,6 +43,7 @@ gnu-sed
 gnupg
 gnutls
 gobject-introspection
+gperf
 graphite2
 graphviz
 harfbuzz
