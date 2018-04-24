@@ -96,12 +96,14 @@ oniguruma
 openssh
 openssl
 openssl@1.1
+orc-tools
 p11-kit
 p7zip
 pango
 pcre
 pcre2
 pgcli
+pigz
 pinentry
 pinentry-mac
 pixman
