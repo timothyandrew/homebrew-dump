@@ -13,7 +13,6 @@ boost
 cairo
 chruby
 chruby-fish
-chunkwm
 cmake
 coreutils
 diff-so-fancy
@@ -110,6 +109,7 @@ pixman
 pkg-config
 postgresql
 protobuf
+pstree
 pv
 python
 python@2
@@ -124,7 +124,6 @@ ruby-install
 s3cmd
 sbt
 scala
-skhd
 speedtest-cli
 sqlite
 sshfs
