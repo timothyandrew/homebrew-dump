@@ -1,0 +1,399 @@
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "d12frosted/emacs-plus"
+tap "caskroom/drivers"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "caskroom/cask"
+cask "java"
+cask "osxfuse"
+cask "xquartz"
+cask "caskroom/versions/java8"
+# C/C++ resolver library and DNS resolver utilities
+brew "adns"
+# Scalable batch and stream data processing
+brew "apache-flink"
+# Engine for large-scale data processing
+brew "apache-spark"
+# Download with resuming and segmented downloading
+brew "aria2"
+# Automatic configure script builder
+brew "autoconf"
+# Shell extension to jump to frequently used directories
+brew "autojump"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Automatically restart SSH sessions and tunnels
+brew "autossh"
+# GNU database manager
+brew "gdbm"
+# SSL/TLS cryptography library
+brew "openssl"
+# Library for command-line editing
+brew "readline"
+# Command-line interface for SQLite
+brew "sqlite"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Google's own build tool
+brew "bazel"
+# Parser generator
+brew "bison"
+# Collection of portable C++ source libraries
+brew "boost"
+# Library for manipulating PNG images
+brew "libpng"
+# Software library to render fonts
+brew "freetype"
+# XML-based font configuration API for X Windows
+brew "fontconfig"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
+# Portable Foreign Function Interface library
+brew "libffi"
+# Perl compatible regular expressions library
+brew "pcre"
+# Core application library for C
+brew "glib"
+# Low-level library for pixel manipulation
+brew "pixman"
+# Vector graphics library with cross-device output support
+brew "cairo"
+# Ruby environment tool
+brew "chruby"
+# Perl compatible regular expressions library with a new API
+brew "pcre2"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Thin wrapper around chruby to make it work with the Fish shell
+brew "chruby-fish"
+# Cross-platform make
+brew "cmake"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Good-lookin' diffs with diff-highlight and more
+brew "diff-so-fancy"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Create Docker hosts locally and on cloud providers
+brew "docker-machine"
+# YAML Parser
+brew "libyaml"
+# Interpreted, interactive, object-oriented programming language
+brew "python@2"
+# Isolated development environments using Docker
+brew "docker-compose", link: false
+# Friendly and expressive shell
+brew "elvish"
+# High quality MPEG Audio Layer III (MP3) encoder
+brew "lame"
+# H.264/AVC encoder
+brew "x264"
+# High-performance, high-quality MPEG-4 video library
+brew "xvid"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Implementation of the Unicode BiDi algorithm
+brew "fribidi"
+# Monitor a directory for changes and run a shell command
+brew "fswatch"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Image manipulation library
+brew "jpeg"
+# TIFF library and utilities
+brew "libtiff"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# Graphics library to dynamically manipulate images
+brew "gd"
+# Toolkit for image loading and pixel buffer manipulation
+brew "gdk-pixbuf"
+# Library for processing command-line flags
+brew "gflags"
+# Distributed revision control system
+brew "git"
+# Alternative to top/htop
+brew "glances"
+# Application-level logging library
+brew "glog"
+# GNU multiple precision arithmetic library
+brew "gmp"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
+# ASN.1 structure parser library
+brew "libtasn1"
+# C string library for manipulating Unicode strings
+brew "libunistring"
+# Low-level cryptographic library
+brew "nettle"
+# Library to load and enumerate PKCS#11 modules
+brew "p11-kit"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# Common error values for all GnuPG components
+brew "libgpg-error"
+# Assuan IPC Library
+brew "libassuan"
+# Cryptographic library based on the code from GnuPG
+brew "libgcrypt"
+# X.509 and CMS library
+brew "libksba"
+# Library for USB device access
+brew "libusb"
+# New GNU portable threads library
+brew "npth"
+# Passphrase entry dialog utilizing the Assuan protocol
+brew "pinentry"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg", link: false
+# Manage compile and link flags for libraries
+brew "pkg-config"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
+# Perfect hash function generator
+brew "gperf"
+# Smart font renderer for non-Roman scripts
+brew "graphite2"
+# Generic library support script
+brew "libtool"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Improved top (interactive process viewer)
+brew "htop"
+# Add GitHub support to git on the command-line
+brew "hub"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick@6"
+# Time series, events, and metrics database
+brew "influxdb"
+# Manage your Java environment
+brew "jenv"
+# Regular expressions library
+brew "oniguruma"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Build tool for Clojure
+brew "leiningen"
+# CSS parsing and manipulation toolkit for GNOME
+brew "libcroco"
+# Asynchronous event library
+brew "libevent"
+# International domain name library (IDNA2008, Punycode and TR46)
+brew "libidn2"
+# Postgres C API library
+brew "libpq"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Library to render SVG files using Cairo
+brew "librsvg"
+# NaCl networking and cryptography library
+brew "libsodium"
+# C library for reading, creating, and modifying zip archives
+brew "libzip"
+# Real-time data compression library
+brew "lzo"
+# File compressor
+brew "lzop"
+# Securely transfers data between computers
+brew "magic-wormhole"
+# Mac App Store command-line interface
+brew "mas"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Intercept, modify, replay, save HTTP/S traffic
+brew "mitmproxy"
+# Remote terminal application
+brew "mosh"
+# 'traceroute' and 'ping' in a single tool
+brew "mtr"
+# Tail multiple files in one terminal simultaneously
+brew "multitail"
+# NCurses Disk Usage
+brew "ncdu"
+# HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
+brew "nginx"
+# Port scanning utility for large networks
+brew "nmap"
+# Platform built on V8 to build network applications
+brew "node"
+# Platform built on V8 to build network applications
+brew "node@4"
+# Manage multiple Node.js versions
+brew "nvm"
+# OpenBSD freely-licensed SSH connectivity tools
+brew "openssh"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+# ORC java command-line tools and utilities
+brew "orc-tools"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
+# CLI for Postgres with auto-completion and syntax highlighting
+brew "pgcli"
+# Parallel gzip
+brew "pigz"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# Object-relational database system
+brew "postgresql"
+# Show ps output as a tree
+brew "pstree"
+# Monitor data's progress through a pipe
+brew "pv"
+# Tools for and transforming and inspecting PDF files
+brew "qpdf"
+# Install various Ruby versions and implementations
+brew "ruby-build"
+# Ruby version manager
+brew "rbenv"
+# Reattach process (e.g., tmux) to background
+brew "reattach-to-user-namespace"
+# Perl-powered file rename script with many helpful built-ins
+brew "rename"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Install Ruby, JRuby, Rubinius, MagLev, or mruby
+brew "ruby-install"
+# Command-line tool for the Amazon S3 service
+brew "s3cmd"
+# Build tool for Scala projects
+brew "sbt"
+# JVM-based programming language
+brew "scala"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# File system client based on SSH File Transfer Protocol
+brew "sshfs"
+# Feature-rich console based todo list manager
+brew "task"
+# Send macOS User Notifications from the command-line
+brew "terminal-notifier"
+# Official documentation format of the GNU project
+brew "texinfo"
+# Terraform version manager inspired by rbenv
+brew "tfenv"
+# Code-search similar to ack
+brew "the_silver_searcher"
+# Programatically correct mistyped console commands
+brew "thefuck"
+# Text interface for Git repositories
+brew "tig"
+# Simplified and community-driven man pages
+brew "tldr"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Language for application scale JavaScript development
+brew "typescript"
+# Secures, stores, and tightly controls access to secrets
+brew "vault"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Internet file retriever
+brew "wget"
+# Network settings helper
+brew "whatmask"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
+# Centralized server for distributed coordination of services
+brew "zookeeper"
+# UNIX shell (command interpreter)
+brew "zsh"
+# GNU Emacs text editor
+brew "d12frosted/emacs-plus/emacs-plus", args: ["with-natural-title-bar", "without-imagemagick@6"]
+cask "1password"
+cask "alfred"
+cask "amethyst"
+cask "appearin"
+cask "bartender"
+cask "bettertouchtool"
+cask "bitbar"
+cask "caffeine"
+cask "calibre"
+cask "ccmenu"
+cask "chefdk"
+cask "choosy"
+cask "contexts"
+cask "cord"
+cask "dash"
+cask "divvy"
+cask "docker"
+cask "dropbox"
+cask "etcher"
+cask "fantastical"
+cask "firefox"
+cask "flume"
+cask "flux"
+cask "gitify"
+cask "google-chrome"
+cask "google-cloud-sdk"
+cask "gpg-suite"
+cask "harvest"
+cask "hazel"
+cask "hyper"
+cask "intellij-idea"
+cask "istat-menus"
+cask "iterm2"
+cask "keybase"
+cask "keyboard-maestro"
+cask "kindle"
+cask "kitty"
+cask "little-snitch"
+cask "macdown"
+cask "omnifocus"
+cask "omnigraffle"
+cask "pester"
+cask "plex-media-server"
+cask "postgres"
+cask "qbittorrent"
+cask "skype"
+cask "slack"
+cask "soulver"
+cask "spark"
+cask "spectacle"
+cask "spotify"
+cask "steam"
+cask "sublime-text"
+cask "switchresx"
+cask "taskpaper"
+cask "the-unarchiver"
+cask "tower"
+cask "transmission"
+cask "tripmode"
+cask "ubersicht"
+cask "unified-remote"
+cask "vagrant"
+cask "virtualbox"
+cask "viscosity"
+cask "visual-studio-code"
+cask "vlc"
+cask "xee"
+cask "zoomus"
+cask "caskroom/drivers/hp-easy-start"
+cask "caskroom/drivers/logitech-options"
+cask "caskroom/fonts/font-anonymous-pro"
+cask "caskroom/fonts/font-envy-code-r"
+cask "caskroom/fonts/font-fira-code"
+cask "caskroom/fonts/font-hack"
+cask "caskroom/fonts/font-inconsolata"
+cask "caskroom/fonts/font-inconsolata-dz"
+cask "caskroom/fonts/font-input"
+cask "caskroom/fonts/font-iosevka"
+cask "caskroom/fonts/font-m-plus"
+cask "caskroom/fonts/font-meslo-lg"
+cask "caskroom/fonts/font-source-code-pro"
+cask "caskroom/versions/quicktime-player7"
+mas "Pixelmator", id: 407963104
+mas "Reeder", id: 880001334
