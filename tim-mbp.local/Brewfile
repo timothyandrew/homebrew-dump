@@ -1,0 +1,206 @@
+tap "mistertea/et"
+tap "railwaycat/emacsmacport"
+tap "crisidev/chunkwm"
+tap "homebrew/core"
+tap "homebrew/versions"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "koekeishiya/formulae"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "caskroom/cask"
+cask "java"
+cask "osxfuse"
+cask "xquartz"
+# Scalable batch and stream data processing
+brew "apache-flink"
+# Engine for large-scale data processing
+brew "apache-spark"
+# Download with resuming and segmented downloading
+brew "aria2"
+# Shell extension to jump to frequently used directories
+brew "autojump"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Automatically restart SSH sessions and tunnels
+brew "autossh"
+# Parser generator
+brew "bison"
+# Ruby environment tool
+brew "chruby"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Thin wrapper around chruby to make it work with the Fish shell
+brew "chruby-fish"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Good-lookin' diffs with diff-highlight and more
+brew "diff-so-fancy"
+# GNU database manager
+brew "gdbm"
+# YAML Parser
+brew "libyaml"
+# SSL/TLS cryptography library
+brew "openssl"
+# Library for command-line editing
+brew "readline"
+# Isolated development environments using Docker
+brew "docker-compose", link: false
+# Friendly and expressive shell
+brew "elvish"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Monitor a directory for changes and run a shell command
+brew "fswatch"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
+# Distributed revision control system
+brew "git"
+# Portable Foreign Function Interface library
+brew "libffi"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Improved top (interactive process viewer)
+brew "htop"
+# Add GitHub support to git on the command-line
+brew "hub"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Time series, events, and metrics database
+brew "influxdb"
+# Manage your Java environment
+brew "jenv"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Publish-subscribe messaging rethought as a distributed commit log
+brew "kafka"
+# Build tool for Clojure
+brew "leiningen"
+# Asynchronous event library
+brew "libevent"
+# File compressor
+brew "lzop"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
+# Securely transfers data between computers
+brew "magic-wormhole"
+# Intercept, modify, replay, save HTTP/S traffic
+brew "mitmproxy"
+# Remote terminal application
+brew "mosh"
+# 'traceroute' and 'ping' in a single tool
+brew "mtr"
+# Tail multiple files in one terminal simultaneously
+brew "multitail"
+# NCurses Disk Usage
+brew "ncdu"
+# HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
+brew "nginx", restart_service: true
+# Port scanning utility for large networks
+brew "nmap"
+# Platform built on V8 to build network applications
+brew "node@4"
+# Manage multiple Node.js versions
+brew "nvm"
+# OpenBSD freely-licensed SSH connectivity tools
+brew "openssh"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# Object-relational database system
+brew "postgresql"
+# Monitor data's progress through a pipe
+brew "pv"
+# Tools for and transforming and inspecting PDF files
+brew "qpdf"
+# Ruby version manager
+brew "rbenv"
+# Reattach process (e.g., tmux) to background
+brew "reattach-to-user-namespace"
+# Perl-powered file rename script with many helpful built-ins
+brew "rename"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Install Ruby, JRuby, Rubinius, MagLev, or mruby
+brew "ruby-install"
+# Build tool for Scala projects
+brew "sbt"
+# JVM-based programming language
+brew "scala"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# File system client based on SSH File Transfer Protocol
+brew "sshfs"
+# Send macOS User Notifications from the command-line
+brew "terminal-notifier"
+# Terraform version manager inspired by rbenv
+brew "tfenv"
+# Code-search similar to ack
+brew "the_silver_searcher"
+# Programatically correct mistyped console commands
+brew "thefuck"
+# Text interface for Git repositories
+brew "tig"
+# Simplified and community-driven man pages
+brew "tldr"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Language for application scale JavaScript development
+brew "typescript"
+# Secures, stores, and tightly controls access to secrets
+brew "vault"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Internet file retriever
+brew "wget"
+# Network settings helper
+brew "whatmask"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
+# Tiling window manager for macOS based on plugin architecture
+brew "crisidev/chunkwm/chunkwm"
+# Simple hotkey-daemon for OSX.
+brew "koekeishiya/formulae/khd"
+# Tiling window manager with focus follows mouse for OSX.
+brew "koekeishiya/formulae/kwm"
+# Remote terminal with IP roaming
+brew "mistertea/et/et"
+cask "amethyst"
+cask "appearin"
+cask "bartender"
+cask "bitbar"
+cask "caffeine"
+cask "chefdk"
+cask "cord"
+cask "divvy"
+cask "docker"
+cask "flume"
+cask "flux"
+cask "forklift"
+cask "gitify"
+cask "google-cloud-sdk"
+cask "hyper"
+cask "macdown"
+cask "pester"
+cask "plex-media-server"
+cask "postgres"
+cask "skype"
+cask "soulver"
+cask "spark"
+cask "steam"
+cask "sublime-text"
+cask "tower"
+cask "unified-remote"
+cask "vagrant"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "xee"
+cask "caskroom/fonts/font-input"
+cask "caskroom/fonts/font-iosevka"
+cask "caskroom/versions/firefox-beta"
+cask "railwaycat/emacsmacport/emacs-mac"
