@@ -247,6 +247,8 @@ brew "pigz"
 brew "pinentry-mac"
 # Object-relational database system
 brew "postgresql"
+# Progress: Coreutils Progress Viewer
+brew "progress"
 # Show ps output as a tree
 brew "pstree"
 # Monitor data's progress through a pipe

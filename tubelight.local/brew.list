@@ -109,6 +109,7 @@ pinentry-mac
 pixman
 pkg-config
 postgresql
+progress
 protobuf
 pstree
 pv
