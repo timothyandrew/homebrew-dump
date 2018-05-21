@@ -273,6 +273,8 @@ brew "s3cmd"
 brew "sbt"
 # JVM-based programming language
 brew "scala"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
 # File system client based on SSH File Transfer Protocol

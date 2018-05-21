@@ -126,6 +126,7 @@ ruby-install
 s3cmd
 sbt
 scala
+shellcheck
 speedtest-cli
 sqlite
 sshfs
