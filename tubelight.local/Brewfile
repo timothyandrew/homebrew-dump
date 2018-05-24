@@ -403,6 +403,7 @@ cask "caskroom/fonts/font-meslo-lg"
 cask "caskroom/fonts/font-source-code-pro"
 cask "caskroom/versions/firefox-developer-edition"
 cask "caskroom/versions/quicktime-player7"
+mas "Airmail 3", id: 918858936
 mas "Microsoft OneNote", id: 784801555
 mas "Pixelmator", id: 407963104
 mas "Reeder", id: 880001334
