@@ -76,6 +76,7 @@ libunistring
 libusb
 libyaml
 libzip
+little-cms2
 lzo
 lzop
 magic-wormhole
@@ -93,6 +94,7 @@ node@4
 npth
 nvm
 oniguruma
+openjpeg
 openssh
 openssl
 openssl@1.1
@@ -108,6 +110,7 @@ pinentry
 pinentry-mac
 pixman
 pkg-config
+poppler
 postgresql
 progress
 protobuf
