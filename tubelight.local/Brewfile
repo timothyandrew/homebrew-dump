@@ -183,6 +183,10 @@ brew "jenv"
 brew "oniguruma"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Centralized server for distributed coordination of services
+brew "zookeeper"
+# Publish-subscribe messaging rethought as a distributed commit log
+brew "kafka"
 # Build tool for Clojure
 brew "leiningen"
 # CSS parsing and manipulation toolkit for GNOME
@@ -313,12 +317,10 @@ brew "wget"
 brew "whatmask"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
-# Centralized server for distributed coordination of services
-brew "zookeeper"
 # UNIX shell (command interpreter)
 brew "zsh"
 # GNU Emacs text editor
-brew "d12frosted/emacs-plus/emacs-plus", args: ["with-natural-title-bar", "without-imagemagick@6"]
+brew "d12frosted/emacs-plus/emacs-plus", args: ["without-imagemagick@6"]
 cask "1password"
 cask "alfred"
 cask "amethyst"

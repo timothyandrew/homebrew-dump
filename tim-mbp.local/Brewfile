@@ -1,17 +1,16 @@
 tap "mistertea/et"
 tap "railwaycat/emacsmacport"
 tap "crisidev/chunkwm"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/versions"
+tap "homebrew/cask"
 tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
 tap "homebrew/services"
+tap "homebrew/cask-drivers"
 tap "koekeishiya/formulae"
-tap "caskroom/fonts"
-tap "caskroom/versions"
-tap "caskroom/cask"
-cask "java"
-cask "osxfuse"
-cask "xquartz"
+tap "d12frosted/emacs-plus"
 # Scalable batch and stream data processing
 brew "apache-flink"
 # Engine for large-scale data processing
@@ -24,8 +23,30 @@ brew "autojump"
 brew "automake"
 # Automatically restart SSH sessions and tunnels
 brew "autossh"
+# GNU database manager
+brew "gdbm"
+# SSL/TLS cryptography library
+brew "openssl"
+# Library for command-line editing
+brew "readline"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
+# Official Amazon AWS command-line interface
+brew "awscli", link: false
+# Google's own build tool
+brew "bazel"
 # Parser generator
 brew "bison"
+# XML-based font configuration API for X Windows
+brew "fontconfig"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
+# Portable Foreign Function Interface library
+brew "libffi"
+# Low-level library for pixel manipulation
+brew "pixman"
+# Vector graphics library with cross-device output support
+brew "cairo"
 # Ruby environment tool
 brew "chruby"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -36,40 +57,56 @@ brew "chruby-fish"
 brew "coreutils"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
-# GNU database manager
-brew "gdbm"
 # YAML Parser
 brew "libyaml"
-# SSL/TLS cryptography library
-brew "openssl"
-# Library for command-line editing
-brew "readline"
 # Isolated development environments using Docker
 brew "docker-compose", link: false
 # Friendly and expressive shell
 brew "elvish"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Implementation of the Unicode BiDi algorithm
+brew "fribidi"
 # Monitor a directory for changes and run a shell command
 brew "fswatch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# GNU internationalization (i18n) and localization (l10n) library
-brew "gettext"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# Graphics library to dynamically manipulate images
+brew "gd"
+# Toolkit for image loading and pixel buffer manipulation
+brew "gdk-pixbuf"
 # Distributed revision control system
 brew "git"
-# Portable Foreign Function Interface library
-brew "libffi"
+# Alternative to top/htop
+brew "glances"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
+# C string library for manipulating Unicode strings
+brew "libunistring"
+# Library to load and enumerate PKCS#11 modules
+brew "p11-kit"
 # GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
+brew "gnupg", link: false
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
+# Perfect hash function generator
+brew "gperf"
+# Smart font renderer for non-Roman scripts
+brew "graphite2"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Improved top (interactive process viewer)
 brew "htop"
 # Add GitHub support to git on the command-line
 brew "hub"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick@6"
 # Time series, events, and metrics database
 brew "influxdb"
 # Manage your Java environment
@@ -80,14 +117,22 @@ brew "jq"
 brew "kafka"
 # Build tool for Clojure
 brew "leiningen"
+# CSS parsing and manipulation toolkit for GNOME
+brew "libcroco"
 # Asynchronous event library
 brew "libevent"
+# Postgres C API library
+brew "libpq"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Library to render SVG files using Cairo
+brew "librsvg"
 # File compressor
 brew "lzop"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Securely transfers data between computers
 brew "magic-wormhole"
+# Mac App Store command-line interface
+brew "mas"
 # Intercept, modify, replay, save HTTP/S traffic
 brew "mitmproxy"
 # Remote terminal application
@@ -103,15 +148,31 @@ brew "nginx", restart_service: true
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
+brew "node"
+# Platform built on V8 to build network applications
 brew "node@4"
 # Manage multiple Node.js versions
 brew "nvm"
 # OpenBSD freely-licensed SSH connectivity tools
 brew "openssh"
+# ORC java command-line tools and utilities
+brew "orc-tools"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
+# CLI for Postgres with auto-completion and syntax highlighting
+brew "pgcli"
+# Parallel gzip
+brew "pigz"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Object-relational database system
 brew "postgresql"
+# Progress: Coreutils Progress Viewer
+brew "progress"
+# Show ps output as a tree
+brew "pstree"
 # Monitor data's progress through a pipe
 brew "pv"
 # Tools for and transforming and inspecting PDF files
@@ -126,16 +187,24 @@ brew "rename"
 brew "ripgrep"
 # Install Ruby, JRuby, Rubinius, MagLev, or mruby
 brew "ruby-install"
+# Command-line tool for the Amazon S3 service
+brew "s3cmd"
 # Build tool for Scala projects
 brew "sbt"
 # JVM-based programming language
 brew "scala"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
 # File system client based on SSH File Transfer Protocol
 brew "sshfs"
+# Feature-rich console based todo list manager
+brew "task"
 # Send macOS User Notifications from the command-line
 brew "terminal-notifier"
+# Official documentation format of the GNU project
+brew "texinfo"
 # Terraform version manager inspired by rbenv
 brew "tfenv"
 # Code-search similar to ack
@@ -162,45 +231,39 @@ brew "wget"
 brew "whatmask"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Tiling window manager for macOS based on plugin architecture
 brew "crisidev/chunkwm/chunkwm"
+# GNU Emacs text editor
+brew "d12frosted/emacs-plus/emacs-plus", args: ["without-imagemagick@6"], link: false
 # Simple hotkey-daemon for OSX.
 brew "koekeishiya/formulae/khd"
 # Tiling window manager with focus follows mouse for OSX.
 brew "koekeishiya/formulae/kwm"
 # Remote terminal with IP roaming
 brew "mistertea/et/et"
-cask "amethyst"
-cask "appearin"
-cask "bartender"
-cask "bitbar"
-cask "caffeine"
-cask "chefdk"
-cask "cord"
-cask "divvy"
-cask "docker"
-cask "flume"
-cask "flux"
-cask "forklift"
-cask "gitify"
-cask "google-cloud-sdk"
-cask "hyper"
-cask "macdown"
-cask "pester"
-cask "plex-media-server"
-cask "postgres"
-cask "skype"
-cask "soulver"
-cask "spark"
-cask "steam"
-cask "sublime-text"
-cask "tower"
-cask "unified-remote"
-cask "vagrant"
-cask "virtualbox"
-cask "visual-studio-code"
-cask "xee"
-cask "caskroom/fonts/font-input"
-cask "caskroom/fonts/font-iosevka"
-cask "caskroom/versions/firefox-beta"
-cask "railwaycat/emacsmacport/emacs-mac"
+mas "1Keyboard", id: 766939888
+mas "1Password", id: 443987910
+mas "Airmail 3", id: 918858936
+mas "CCMenu", id: 603117688
+mas "Create Booklet", id: 943029046
+mas "CrosswordLight", id: 416066978
+mas "Filters for Photos", id: 1083965373
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Medis", id: 1063631769
+mas "Microsoft Remote Desktop", id: 715768417
+mas "Napkin", id: 581789185
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "PDFScanner", id: 410968114
+mas "Pixelmator", id: 407963104
+mas "Pocket", id: 568494494
+mas "Reeder", id: 880001334
+mas "Spark", id: 1176895641
+mas "Tweetbot", id: 557168941
+mas "Unclutter", id: 577085396
+mas "WiFi Signal", id: 525912054
+mas "Xcode", id: 497799835

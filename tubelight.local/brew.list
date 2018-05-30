@@ -55,6 +55,7 @@ influxdb
 jenv
 jpeg
 jq
+kafka
 lame
 leiningen
 libassuan
