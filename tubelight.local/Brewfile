@@ -411,7 +411,6 @@ cask "homebrew/cask-fonts/font-source-code-pro"
 cask "homebrew/cask-versions/firefox-developer-edition"
 cask "homebrew/cask-versions/quicktime-player7"
 mas "Airmail 3", id: 918858936
-mas "macOS High Sierra", id: Install
 mas "Microsoft OneNote", id: 784801555
 mas "Pixelmator", id: 407963104
 mas "Reeder", id: 880001334
