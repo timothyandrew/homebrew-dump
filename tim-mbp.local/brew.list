@@ -43,6 +43,7 @@ gmp
 gnu-sed
 gnupg
 gnutls
+go
 gobject-introspection
 gperf
 graphite2
