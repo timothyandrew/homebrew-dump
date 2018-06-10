@@ -92,7 +92,7 @@ brew "libunistring"
 # Library to load and enumerate PKCS#11 modules
 brew "p11-kit"
 # GNU Pretty Good Privacy (PGP) package
-brew "gnupg", link: false
+brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Generate introspection data for GObject libraries
@@ -242,7 +242,7 @@ brew "zsh"
 # Tiling window manager for macOS based on plugin architecture
 brew "crisidev/chunkwm/chunkwm"
 # GNU Emacs text editor
-brew "d12frosted/emacs-plus/emacs-plus", args: ["without-imagemagick@6"], link: false
+brew "d12frosted/emacs-plus/emacs-plus", args: ["without-imagemagick@6"]
 # Simple hotkey-daemon for OSX.
 brew "koekeishiya/formulae/khd"
 # Tiling window manager with focus follows mouse for OSX.
