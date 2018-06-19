@@ -80,7 +80,7 @@ brew "diff-so-fancy"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
 # Create Docker hosts locally and on cloud providers
-brew "docker-machine"
+brew "docker-machine", link: false
 # YAML Parser
 brew "libyaml"
 # Interpreted, interactive, object-oriented programming language
@@ -366,9 +366,11 @@ cask "kindle"
 cask "kitty"
 cask "little-snitch"
 cask "macdown"
+cask "mailplane"
 cask "omnifocus"
 cask "omnigraffle"
 cask "pester"
+cask "plex-media-player"
 cask "plex-media-server"
 cask "postgres"
 cask "qbittorrent"
