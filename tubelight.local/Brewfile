@@ -27,8 +27,6 @@ brew "automake"
 brew "autossh"
 # GNU database manager
 brew "gdbm"
-# YAML Parser
-brew "libyaml"
 # SSL/TLS cryptography library
 brew "openssl"
 # Library for command-line editing
@@ -83,6 +81,8 @@ brew "diff-so-fancy"
 brew "docker", link: false
 # Create Docker hosts locally and on cloud providers
 brew "docker-machine", link: false
+# YAML Parser
+brew "libyaml"
 # Interpreted, interactive, object-oriented programming language
 brew "python@2"
 # Isolated development environments using Docker
@@ -414,5 +414,6 @@ cask "homebrew/cask-versions/firefox-developer-edition"
 cask "homebrew/cask-versions/quicktime-player7"
 mas "Airmail 3", id: 918858936
 mas "Microsoft OneNote", id: 784801555
+mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Reeder", id: 880001334
