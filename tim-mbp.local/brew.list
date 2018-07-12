@@ -30,6 +30,7 @@ freetype
 fribidi
 fswatch
 fzf
+gcsfuse
 gd
 gdbm
 gdk-pixbuf

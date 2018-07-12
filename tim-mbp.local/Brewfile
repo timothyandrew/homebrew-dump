@@ -75,6 +75,8 @@ brew "fribidi"
 brew "fswatch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# User-space file system for interacting with Google Cloud
+brew "gcsfuse"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
 # Graphics library to dynamically manipulate images
