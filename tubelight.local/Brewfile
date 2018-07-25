@@ -413,6 +413,7 @@ cask "vlc"
 cask "xee"
 cask "zoomus"
 mas "Airmail 3", id: 918858936
+mas "Bear", id: 1091189122
 mas "Microsoft OneNote", id: 784801555
 mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
