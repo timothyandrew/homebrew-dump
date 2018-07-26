@@ -15,7 +15,9 @@ chruby
 chruby-fish
 chunkwm
 cmake
+colordiff
 coreutils
+dhall-json
 diff-so-fancy
 docker
 docker-compose
@@ -51,6 +53,7 @@ graphite2
 graphviz
 harfbuzz
 htop
+httpie
 hub
 icu4c
 imagemagick

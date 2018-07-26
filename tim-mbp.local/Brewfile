@@ -14,7 +14,6 @@ tap "railwaycat/emacsmacport"
 cask "java"
 cask "osxfuse"
 cask "xquartz"
-cask "homebrew/cask-versions/java8"
 # Scalable batch and stream data processing
 brew "apache-flink"
 # Engine for large-scale data processing
@@ -36,7 +35,7 @@ brew "readline"
 # Interpreted, interactive, object-oriented programming language
 brew "python"
 # Official Amazon AWS command-line interface
-brew "awscli", link: false
+brew "awscli"
 # Google's own build tool
 brew "bazel"
 # Parser generator
@@ -57,8 +56,12 @@ brew "chruby"
 brew "fish"
 # Thin wrapper around chruby to make it work with the Fish shell
 brew "chruby-fish"
+# Color-highlighted diff(1) output
+brew "colordiff"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Dhall to JSON compiler and a Dhall to YAML compiler
+brew "dhall-json"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 # YAML Parser
@@ -109,6 +112,8 @@ brew "graphviz"
 brew "harfbuzz"
 # Improved top (interactive process viewer)
 brew "htop"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
 # Add GitHub support to git on the command-line
 brew "hub"
 # Tools and libraries to manipulate images in many formats
@@ -266,14 +271,19 @@ cask "dash"
 cask "divvy"
 cask "docker"
 cask "filebot"
+cask "firefox-beta"
 cask "flume"
 cask "flux"
+cask "font-input"
+cask "font-iosevka"
 cask "forklift"
 cask "gitify"
 cask "gitkraken"
 cask "google-cloud-sdk"
 cask "gpg-suite"
 cask "hyper"
+cask "istat-menus"
+cask "java8"
 cask "macdown"
 cask "mailplane"
 cask "pester"
@@ -292,12 +302,10 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "wireshark"
 cask "xee"
-cask "homebrew/cask-fonts/font-input"
-cask "homebrew/cask-fonts/font-iosevka"
-cask "homebrew/cask-versions/firefox-beta"
 cask "railwaycat/emacsmacport/emacs-mac"
 mas "1Keyboard", id: 766939888
 mas "Airmail 3", id: 918858936
+mas "Bear", id: 1091189122
 mas "CCMenu", id: 603117688
 mas "Create Booklet", id: 943029046
 mas "CrosswordLight", id: 416066978
