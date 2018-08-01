@@ -13,6 +13,7 @@ boost
 cairo
 chruby
 chruby-fish
+clojure
 cmake
 coreutils
 diff-so-fancy
@@ -126,6 +127,7 @@ readline
 reattach-to-user-namespace
 rename
 ripgrep
+rlwrap
 ruby-build
 ruby-install
 s3cmd
