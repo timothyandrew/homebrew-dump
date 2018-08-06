@@ -274,7 +274,7 @@ brew "reattach-to-user-namespace"
 brew "rename"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Install Ruby, JRuby, Rubinius, MagLev, or mruby
+# Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
 brew "ruby-install"
 # Command-line tool for the Amazon S3 service
 brew "s3cmd"
