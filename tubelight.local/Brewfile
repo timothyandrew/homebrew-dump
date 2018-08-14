@@ -248,14 +248,16 @@ brew "orc-tools"
 brew "p7zip"
 # CLI for Postgres with auto-completion and syntax highlighting
 brew "pgcli"
+# Object-relational database system
+brew "postgresql"
+# Data loading tool for PostgreSQL
+brew "pgloader"
 # Parallel gzip
 brew "pigz"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
-# Object-relational database system
-brew "postgresql"
 # Progress: Coreutils Progress Viewer
 brew "progress"
 # Show ps output as a tree
@@ -376,6 +378,7 @@ cask "intellij-idea"
 cask "istat-menus"
 cask "iterm2"
 cask "java8"
+cask "karabiner-elements"
 cask "keybase"
 cask "keyboard-maestro"
 cask "kindle"
