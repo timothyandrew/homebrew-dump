@@ -420,6 +420,7 @@ cask "virtualbox"
 cask "viscosity"
 cask "visual-studio-code"
 cask "vlc"
+cask "wireshark"
 cask "xee"
 cask "zoomus"
 mas "Airmail 3", id: 918858936
