@@ -327,6 +327,7 @@ brew "zsh"
 # GNU Emacs text editor
 brew "d12frosted/emacs-plus/emacs-plus", args: ["without-imagemagick@6"]
 cask "1password"
+cask "adobe-acrobat-reader"
 cask "alfred"
 cask "amethyst"
 cask "appearin"
