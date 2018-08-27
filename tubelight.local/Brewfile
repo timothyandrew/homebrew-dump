@@ -426,6 +426,7 @@ cask "vlc"
 cask "wireshark"
 cask "xee"
 cask "zoomus"
+mas "1Keyboard", id: 766939888
 mas "Airmail 3", id: 918858936
 mas "Bear", id: 1091189122
 mas "Microsoft OneNote", id: 784801555
