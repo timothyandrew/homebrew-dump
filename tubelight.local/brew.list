@@ -81,6 +81,7 @@ libusb
 libyaml
 libzip
 little-cms2
+lsusb
 lzo
 lzop
 magic-wormhole
@@ -127,6 +128,7 @@ qpdf
 rbenv
 readline
 reattach-to-user-namespace
+redis
 rename
 ripgrep
 rlwrap
