@@ -82,14 +82,14 @@ brew "coreutils"
 brew "diff-so-fancy"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
-# Create Docker hosts locally and on cloud providers
-brew "docker-machine", link: false
 # YAML Parser
 brew "libyaml"
 # Interpreted, interactive, object-oriented programming language
 brew "python@2"
 # Isolated development environments using Docker
 brew "docker-compose", link: false
+# Create Docker hosts locally and on cloud providers
+brew "docker-machine", link: false
 # Friendly and expressive shell
 brew "elvish"
 # Simple, fast and user-friendly alternative to find
