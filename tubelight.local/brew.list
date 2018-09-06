@@ -140,6 +140,7 @@ redis
 rename
 ripgrep
 rlwrap
+ruby
 ruby-build
 ruby-install
 s3cmd
@@ -162,6 +163,7 @@ tmux
 tree
 typescript
 vault
+vim
 watch
 webp
 weechat
