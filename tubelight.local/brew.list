@@ -25,6 +25,7 @@ docker
 docker-compose
 docker-machine
 elvish
+emacs
 emacs-plus
 fd
 ffmpeg
