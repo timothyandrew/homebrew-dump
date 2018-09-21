@@ -17,6 +17,7 @@ cleanmymac
 contexts
 cord
 dash
+datagrip
 divvy
 docker
 dropbox
@@ -74,6 +75,7 @@ pester
 plex-media-player
 plex-media-server
 postgres
+postico
 qbittorrent
 quicktime-player7
 skype
