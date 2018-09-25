@@ -79,6 +79,7 @@ libpng
 libpq
 librsvg
 libsodium
+libssh2
 libtasn1
 libtiff
 libtool
