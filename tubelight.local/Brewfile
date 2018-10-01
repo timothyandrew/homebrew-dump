@@ -297,6 +297,8 @@ brew "s3cmd"
 brew "sbt"
 # JVM-based programming language
 brew "scala"
+# Run scalastyle from the command-line
+brew "scalastyle"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Command-line interface for https://speedtest.net bandwidth tests

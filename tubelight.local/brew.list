@@ -149,6 +149,7 @@ s3cmd
 sbcl
 sbt
 scala
+scalastyle
 shellcheck
 speedtest-cli
 sqlite
