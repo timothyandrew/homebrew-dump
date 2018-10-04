@@ -105,6 +105,8 @@ nmap
 node
 node@4
 npth
+nspr
+nss
 nvm
 oniguruma
 openjpeg
