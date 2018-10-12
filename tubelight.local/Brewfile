@@ -121,6 +121,8 @@ brew "x264"
 brew "xvid"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Generic library support script
+brew "libtool"
 # Implementation of the Unicode BiDi algorithm
 brew "fribidi"
 # Monitor a directory for changes and run a shell command
@@ -169,8 +171,6 @@ brew "gobject-introspection"
 brew "gperf"
 # Smart font renderer for non-Roman scripts
 brew "graphite2"
-# Generic library support script
-brew "libtool"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # C/C++ and Java libraries for Unicode and globalization
