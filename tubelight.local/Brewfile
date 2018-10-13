@@ -85,8 +85,6 @@ brew "diff-so-fancy"
 brew "docker", link: false
 # YAML Parser
 brew "libyaml"
-# Interpreted, interactive, object-oriented programming language
-brew "python@2"
 # Isolated development environments using Docker
 brew "docker-compose", link: false
 # Create Docker hosts locally and on cloud providers
@@ -139,6 +137,8 @@ brew "gdk-pixbuf"
 brew "gflags"
 # Distributed revision control system
 brew "git"
+# Interpreted, interactive, object-oriented programming language
+brew "python@2"
 # Alternative to top/htop
 brew "glances"
 # Application-level logging library
