@@ -75,6 +75,7 @@ libgcrypt
 libgpg-error
 libidn2
 libksba
+libogg
 libpng
 libpq
 librsvg
@@ -85,6 +86,8 @@ libtiff
 libtool
 libunistring
 libusb
+libvorbis
+libvpx
 libyaml
 libzip
 little-cms2
@@ -99,6 +102,7 @@ mosh
 mtr
 multitail
 ncdu
+ncurses
 nettle
 nginx
 nmap
@@ -113,6 +117,7 @@ openjpeg
 openssh
 openssl
 openssl@1.1
+opus
 orc-tools
 p11-kit
 p7zip
@@ -152,7 +157,9 @@ sbcl
 sbt
 scala
 scalastyle
+sdl2
 shellcheck
+snappy
 speedtest-cli
 sqlite
 sshfs
@@ -162,6 +169,7 @@ texinfo
 tfenv
 the_silver_searcher
 thefuck
+theora
 tig
 tldr
 tmux
@@ -176,6 +184,7 @@ weechat
 wget
 whatmask
 x264
+x265
 xvid
 xz
 youtube-dl
