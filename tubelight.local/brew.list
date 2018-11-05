@@ -22,7 +22,6 @@ coreutils
 curl
 diff-so-fancy
 docker
-docker-compose
 docker-machine
 elvish
 emacs
@@ -106,8 +105,8 @@ ncurses
 nettle
 nginx
 nmap
-node
 node@4
+node@6
 npth
 nspr
 nss

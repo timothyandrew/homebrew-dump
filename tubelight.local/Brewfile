@@ -83,10 +83,6 @@ brew "coreutils"
 brew "diff-so-fancy"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
-# YAML Parser
-brew "libyaml"
-# Isolated development environments using Docker
-brew "docker-compose", link: false
 # Create Docker hosts locally and on cloud providers
 brew "docker-machine", link: false
 # Friendly and expressive shell
@@ -213,6 +209,8 @@ brew "pango"
 brew "librsvg"
 # NaCl networking and cryptography library
 brew "libsodium"
+# YAML Parser
+brew "libyaml"
 # C library for reading, creating, and modifying zip archives
 brew "libzip"
 # List USB devices, just like the Linux lsusb command
@@ -242,9 +240,9 @@ brew "nginx"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node"
-# Platform built on V8 to build network applications
 brew "node@4"
+# Platform built on V8 to build network applications
+brew "node@6", link: true
 # Manage multiple Node.js versions
 brew "nvm"
 # OpenBSD freely-licensed SSH connectivity tools
