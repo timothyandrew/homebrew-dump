@@ -157,6 +157,16 @@ brew "npth"
 brew "pinentry"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg", link: false
+# Smart font renderer for non-Roman scripts
+brew "graphite2"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Command-driven, interactive function plotting
+brew "gnuplot"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Manage compile and link flags for libraries
@@ -165,14 +175,8 @@ brew "pkg-config"
 brew "gobject-introspection"
 # Perfect hash function generator
 brew "gperf"
-# Smart font renderer for non-Roman scripts
-brew "graphite2"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c"
-# OpenType text shaping engine
-brew "harfbuzz"
 # Improved top (interactive process viewer)
 brew "htop"
 # Add GitHub support to git on the command-line
@@ -203,8 +207,6 @@ brew "libevent"
 brew "libidn2"
 # Postgres C API library
 brew "libpq"
-# Framework for layout and rendering of i18n text
-brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # NaCl networking and cryptography library

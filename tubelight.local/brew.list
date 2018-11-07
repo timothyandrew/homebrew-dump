@@ -47,6 +47,7 @@ glog
 gmp
 gnu-sed
 gnupg
+gnuplot
 gnutls
 go
 gobject-introspection
