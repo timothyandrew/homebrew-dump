@@ -244,7 +244,7 @@ brew "nmap"
 # Platform built on V8 to build network applications
 brew "node@4"
 # Platform built on V8 to build network applications
-brew "node@6"
+brew "node@6", link: true
 # Manage multiple Node.js versions
 brew "nvm"
 # OpenBSD freely-licensed SSH connectivity tools
