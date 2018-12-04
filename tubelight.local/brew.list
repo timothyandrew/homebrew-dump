@@ -25,6 +25,7 @@ docker
 docker-machine
 elvish
 emacs
+emacs-mac
 emacs-plus
 fd
 ffmpeg

@@ -6,6 +6,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "railwaycat/emacsmacport"
 cask "java"
 cask "osxfuse"
 cask "xquartz"
@@ -345,6 +346,8 @@ brew "youtube-dl"
 brew "zsh"
 # GNU Emacs text editor
 brew "d12frosted/emacs-plus/emacs-plus", args: ["without-imagemagick@6"]
+# YAMAMOTO Mitsuharu's Mac port of GNU Emacs
+brew "railwaycat/emacsmacport/emacs-mac", link: false
 cask "1password"
 cask "adobe-acrobat-reader"
 cask "alfred"
