@@ -8,6 +8,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "railwaycat/emacsmacport"
 cask "java"
+cask "java8"
 cask "osxfuse"
 cask "xquartz"
 # C/C++ resolver library and DNS resolver utilities
@@ -132,6 +133,8 @@ brew "gd"
 brew "gdk-pixbuf"
 # Library for processing command-line flags
 brew "gflags"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # Distributed revision control system
 brew "git"
 # Interpreted, interactive, object-oriented programming language
@@ -405,7 +408,6 @@ cask "hyper"
 cask "intellij-idea"
 cask "istat-menus"
 cask "iterm2"
-cask "java8"
 cask "karabiner-elements"
 cask "keybase"
 cask "keyboard-maestro"
@@ -455,6 +457,7 @@ cask "xee"
 cask "zoomus"
 mas "Airmail 3", id: 918858936
 mas "Bear", id: 1091189122
+mas "Habitify", id: 1140787122
 mas "Microsoft OneNote", id: 784801555
 mas "Pages", id: 409201541
 mas "Paprika Recipe Manager 3", id: 1303222628
