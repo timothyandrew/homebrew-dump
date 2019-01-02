@@ -248,7 +248,7 @@ brew "nmap"
 # Platform built on V8 to build network applications
 brew "node@4"
 # Platform built on V8 to build network applications
-brew "node@6"
+brew "node@6", link: true
 # Manage multiple Node.js versions
 brew "nvm"
 # OpenBSD freely-licensed SSH connectivity tools
@@ -459,6 +459,7 @@ mas "Airmail 3", id: 918858936
 mas "Bear", id: 1091189122
 mas "Habitify", id: 1140787122
 mas "Microsoft OneNote", id: 784801555
+mas "MindNode", id: 1289197285
 mas "Pages", id: 409201541
 mas "Paprika Recipe Manager 3", id: 1303222628
 mas "Pixelmator", id: 407963104
