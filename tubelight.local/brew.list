@@ -70,6 +70,7 @@ kafka
 lame
 leiningen
 libassuan
+libcerf
 libcroco
 libevent
 libffi
