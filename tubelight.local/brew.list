@@ -79,6 +79,7 @@ libgpg-error
 libidn2
 libksba
 libogg
+libomp
 libpng
 libpq
 librsvg
