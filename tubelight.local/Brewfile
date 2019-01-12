@@ -139,8 +139,6 @@ brew "gflags"
 brew "ghostscript"
 # Distributed revision control system
 brew "git"
-# Interpreted, interactive, object-oriented programming language
-brew "python@2"
 # Alternative to top/htop
 brew "glances"
 # Application-level logging library
@@ -229,6 +227,8 @@ brew "lzop"
 brew "magic-wormhole"
 # Mac App Store command-line interface
 brew "mas"
+# Interpreted, interactive, object-oriented programming language
+brew "python@2"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
 # Intercept, modify, replay, save HTTP/S traffic
