@@ -1,3 +1,4 @@
+tap "bazelbuild/tap"
 tap "crisidev/chunkwm"
 tap "d12frosted/emacs-plus"
 tap "homebrew/bundle"
@@ -12,8 +13,8 @@ tap "koekeishiya/formulae"
 tap "mistertea/et"
 tap "railwaycat/emacsmacport"
 cask "java"
+cask "java8"
 cask "osxfuse"
-cask "xquartz"
 # Scalable batch and stream data processing
 brew "apache-flink"
 # Engine for large-scale data processing
@@ -36,6 +37,8 @@ brew "readline"
 brew "python"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Google's own build tool
 brew "bazel"
 # Parser generator
@@ -56,10 +59,18 @@ brew "chruby"
 brew "fish"
 # Thin wrapper around chruby to make it work with the Fish shell
 brew "chruby-fish"
+# The Clojure Programming Language
+brew "clojure"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
 # Color-highlighted diff(1) output
 brew "colordiff"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Go dependency management tool
+brew "dep"
 # Dhall to JSON compiler and a Dhall to YAML compiler
 brew "dhall-json"
 # Good-lookin' diffs with diff-highlight and more
@@ -67,11 +78,19 @@ brew "diff-so-fancy"
 # YAML Parser
 brew "libyaml"
 # Isolated development environments using Docker
-brew "docker-compose", link: false
+brew "docker-compose"
 # Friendly and expressive shell
 brew "elvish"
+# C string library for manipulating Unicode strings
+brew "libunistring"
+# Library to load and enumerate PKCS#11 modules
+brew "p11-kit"
+# GNU Emacs text editor
+brew "emacs", args: ["with-cocoa"]
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Collection of GNU find, xargs, and locate
+brew "findutils"
 # Implementation of the Unicode BiDi algorithm
 brew "fribidi"
 # Monitor a directory for changes and run a shell command
@@ -92,14 +111,8 @@ brew "git"
 brew "glances"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
-# C string library for manipulating Unicode strings
-brew "libunistring"
-# Library to load and enumerate PKCS#11 modules
-brew "p11-kit"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
 # Perfect hash function generator
@@ -146,6 +159,10 @@ brew "lzop"
 brew "magic-wormhole"
 # Mac App Store command-line interface
 brew "mas"
+# Java-based project management
+brew "maven"
+# Hash utilities
+brew "md5sha1sum"
 # Intercept, modify, replay, save HTTP/S traffic
 brew "mitmproxy"
 # Remote terminal application
@@ -161,9 +178,9 @@ brew "nginx", restart_service: true
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node"
-# Platform built on V8 to build network applications
 brew "node@4"
+# Platform built on V8 to build network applications
+brew "node@6", link: true
 # Manage multiple Node.js versions
 brew "nvm"
 # OpenBSD freely-licensed SSH connectivity tools
@@ -190,15 +207,19 @@ brew "pstree"
 brew "pv"
 # Tools for and transforming and inspecting PDF files
 brew "qpdf"
+# File browser
+brew "ranger"
 # Ruby version manager
 brew "rbenv"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
+# Persistent key-value database, with built-in net interface
+brew "redis"
 # Perl-powered file rename script with many helpful built-ins
 brew "rename"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Install Ruby, JRuby, Rubinius, MagLev, or mruby
+# Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
 brew "ruby-install"
 # Command-line tool for the Amazon S3 service
 brew "s3cmd"
@@ -247,17 +268,18 @@ brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Tiling window manager for macOS based on plugin architecture
-brew "crisidev/chunkwm/chunkwm"
-# GNU Emacs text editor
-brew "d12frosted/emacs-plus/emacs-plus", args: ["without-imagemagick@6"]
+brew "koekeishiya/formulae/chunkwm"
 # Simple hotkey-daemon for OSX.
 brew "koekeishiya/formulae/khd"
 # Tiling window manager with focus follows mouse for OSX.
 brew "koekeishiya/formulae/kwm"
 # Remote terminal with IP roaming
 brew "mistertea/et/et"
+# YAMAMOTO Mitsuharu's Mac port of GNU Emacs
+brew "railwaycat/emacsmacport/emacs-mac", link: false
 cask "1password"
 cask "amethyst"
+cask "android-studio"
 cask "appearin"
 cask "bartender"
 cask "bettertouchtool"
@@ -268,14 +290,18 @@ cask "chefdk"
 cask "cleanmymac"
 cask "cord"
 cask "dash"
+cask "discord"
 cask "divvy"
 cask "docker"
 cask "filebot"
 cask "firefox-beta"
 cask "flume"
 cask "flux"
+cask "font-hack"
+cask "font-inconsolata"
 cask "font-input"
 cask "font-iosevka"
+cask "font-source-code-pro"
 cask "forklift"
 cask "gitify"
 cask "gitkraken"
@@ -283,17 +309,19 @@ cask "google-cloud-sdk"
 cask "gpg-suite"
 cask "hyper"
 cask "istat-menus"
-cask "java8"
 cask "macdown"
+cask "macvim"
 cask "mailplane"
 cask "pester"
 cask "plex-media-server"
 cask "postgres"
+cask "setapp"
 cask "skype"
 cask "soulver"
 cask "spark"
 cask "spectacle"
 cask "steam"
+cask "sublime-merge"
 cask "sublime-text"
 cask "tower"
 cask "unified-remote"
@@ -302,9 +330,11 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "wireshark"
 cask "xee"
+cask "xquartz"
 cask "railwaycat/emacsmacport/emacs-mac"
 mas "1Keyboard", id: 766939888
 mas "Airmail 3", id: 918858936
+mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
 mas "CCMenu", id: 603117688
 mas "Create Booklet", id: 943029046
@@ -318,11 +348,13 @@ mas "Microsoft Remote Desktop", id: 715768417
 mas "Napkin", id: 581789185
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Paprika Recipe Manager 3", id: 1303222628
 mas "PDFScanner", id: 410968114
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
 mas "Reeder", id: 880001334
-mas "Spark", id: 1176895641
+mas "Things3", id: 904280696
+mas "Todoist", id: 585829637
 mas "Tweetbot", id: 557168941
 mas "Unclutter", id: 577085396
 mas "WiFi Signal", id: 525912054

@@ -1,5 +1,6 @@
 1password
 amethyst
+android-studio
 appearin
 bartender
 bettertouchtool
@@ -10,6 +11,7 @@ chefdk
 cleanmymac
 cord
 dash
+discord
 divvy
 docker
 emacs-mac
@@ -17,8 +19,11 @@ filebot
 firefox-beta
 flume
 flux
+font-hack
+font-inconsolata
 font-input
 font-iosevka
+font-source-code-pro
 forklift
 gitify
 gitkraken
@@ -29,16 +34,19 @@ istat-menus
 java
 java8
 macdown
+macvim
 mailplane
 osxfuse
 pester
 plex-media-server
 postgres
+setapp
 skype
 soulver
 spark
 spectacle
 steam
+sublime-merge
 sublime-text
 tower
 unified-remote
