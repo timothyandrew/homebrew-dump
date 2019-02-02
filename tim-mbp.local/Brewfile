@@ -19,6 +19,8 @@ cask "osxfuse"
 brew "apache-flink"
 # Engine for large-scale data processing
 brew "apache-spark"
+# SSL/TLS cryptography library
+brew "openssl"
 # Download with resuming and segmented downloading
 brew "aria2"
 # Shell extension to jump to frequently used directories
@@ -29,8 +31,6 @@ brew "automake"
 brew "autossh"
 # GNU database manager
 brew "gdbm"
-# SSL/TLS cryptography library
-brew "openssl"
 # Library for command-line editing
 brew "readline"
 # Interpreted, interactive, object-oriented programming language
@@ -78,7 +78,7 @@ brew "diff-so-fancy"
 # YAML Parser
 brew "libyaml"
 # Isolated development environments using Docker
-brew "docker-compose"
+brew "docker-compose", link: false
 # Friendly and expressive shell
 brew "elvish"
 # C string library for manipulating Unicode strings
@@ -87,12 +87,16 @@ brew "libunistring"
 brew "p11-kit"
 # GNU Emacs text editor
 brew "emacs", args: ["with-cocoa"]
+# Implementation of the Unicode BiDi algorithm
+brew "fribidi"
+# Smart font renderer for non-Roman scripts
+brew "graphite2"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
-# Implementation of the Unicode BiDi algorithm
-brew "fribidi"
 # Monitor a directory for changes and run a shell command
 brew "fswatch"
 # Command-line fuzzy finder written in Go
@@ -112,17 +116,13 @@ brew "glances"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
+brew "gnupg", link: false
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
 # Perfect hash function generator
 brew "gperf"
-# Smart font renderer for non-Roman scripts
-brew "graphite2"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
-# OpenType text shaping engine
-brew "harfbuzz"
 # Improved top (interactive process viewer)
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -162,7 +162,7 @@ brew "mas"
 # Java-based project management
 brew "maven"
 # Hash utilities
-brew "md5sha1sum"
+brew "md5sha1sum", link: false
 # Intercept, modify, replay, save HTTP/S traffic
 brew "mitmproxy"
 # Remote terminal application
@@ -180,7 +180,7 @@ brew "nmap"
 # Platform built on V8 to build network applications
 brew "node@4"
 # Platform built on V8 to build network applications
-brew "node@6", link: true
+brew "node@6"
 # Manage multiple Node.js versions
 brew "nvm"
 # OpenBSD freely-licensed SSH connectivity tools
