@@ -15,6 +15,7 @@ tap "railwaycat/emacsmacport"
 cask "java"
 cask "java8"
 cask "osxfuse"
+cask "xquartz"
 # Scalable batch and stream data processing
 brew "apache-flink"
 # Engine for large-scale data processing
@@ -61,6 +62,8 @@ brew "fish"
 brew "chruby-fish"
 # The Clojure Programming Language
 brew "clojure"
+# Cross-platform make
+brew "cmake"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
 # Color-highlighted diff(1) output
@@ -121,6 +124,8 @@ brew "gnupg", link: false
 brew "gobject-introspection"
 # Perfect hash function generator
 brew "gperf"
+# Generic library support script
+brew "libtool"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Improved top (interactive process viewer)
@@ -175,12 +180,14 @@ brew "multitail"
 brew "ncdu"
 # HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
 brew "nginx", restart_service: true
+# Small build system for use with gyp or CMake
+brew "ninja"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
 brew "node@4"
 # Platform built on V8 to build network applications
-brew "node@6"
+brew "node@6", link: true
 # Manage multiple Node.js versions
 brew "nvm"
 # OpenBSD freely-licensed SSH connectivity tools
@@ -267,6 +274,8 @@ brew "whatmask"
 brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
+# GNU Emacs text editor
+brew "d12frosted/emacs-plus/emacs-plus", args: ["with-modern-icon", "without-spacemacs-icon"], link: false
 # Tiling window manager for macOS based on plugin architecture
 brew "koekeishiya/formulae/chunkwm"
 # Simple hotkey-daemon for OSX.
@@ -330,7 +339,6 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "wireshark"
 cask "xee"
-cask "xquartz"
 cask "railwaycat/emacsmacport/emacs-mac"
 mas "1Keyboard", id: 766939888
 mas "Airmail 3", id: 918858936
