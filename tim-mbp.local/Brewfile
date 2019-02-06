@@ -96,6 +96,8 @@ brew "fribidi"
 brew "graphite2"
 # OpenType text shaping engine
 brew "harfbuzz"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Collection of GNU find, xargs, and locate
@@ -106,8 +108,6 @@ brew "fswatch"
 brew "fzf"
 # User-space file system for interacting with Google Cloud
 brew "gcsfuse"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Graphics library to dynamically manipulate images
 brew "gd"
 # Toolkit for image loading and pixel buffer manipulation
