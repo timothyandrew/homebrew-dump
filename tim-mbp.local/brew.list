@@ -67,6 +67,7 @@ htop
 httpie
 hub
 icu4c
+ilmbase
 imagemagick
 imagemagick@6
 influxdb
@@ -82,11 +83,14 @@ leiningen
 leptonica
 libass
 libassuan
+libbluray
 libcroco
+libde265
 libevent
 libffi
 libgcrypt
 libgpg-error
+libheif
 libidn2
 libksba
 libogg
@@ -97,6 +101,7 @@ librsvg
 libsamplerate
 libsndfile
 libsodium
+libsoxr
 libssh2
 libtasn1
 libtiff
@@ -135,6 +140,7 @@ nss
 nvm
 oniguruma
 opencore-amr
+openexr
 openjpeg
 openssh
 openssl
