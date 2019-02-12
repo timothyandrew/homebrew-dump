@@ -1,6 +1,7 @@
 tap "bazelbuild/tap"
 tap "crisidev/chunkwm"
 tap "d12frosted/emacs-plus"
+tap "getantibody/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -276,6 +277,8 @@ brew "youtube-dl"
 brew "zsh"
 # GNU Emacs text editor
 brew "d12frosted/emacs-plus/emacs-plus", args: ["with-modern-icon", "without-spacemacs-icon"], link: false
+# The fastest shell plugin manager
+brew "getantibody/tap/antibody"
 # Tiling window manager for macOS based on plugin architecture
 brew "koekeishiya/formulae/chunkwm"
 # Simple hotkey-daemon for OSX.
