@@ -129,6 +129,8 @@ brew "gperf"
 brew "libtool"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
+# Command-line hex viewer
+brew "hexyl"
 # Improved top (interactive process viewer)
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -143,6 +145,8 @@ brew "imagemagick@6"
 brew "influxdb"
 # Manage your Java environment
 brew "jenv"
+# Enhanced version of john, a UNIX password cracker
+brew "john-jumbo"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Publish-subscribe messaging rethought as a distributed commit log
@@ -237,6 +241,8 @@ brew "sbt"
 brew "scala"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# netcat on steroids
+brew "socat"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
 # File system client based on SSH File Transfer Protocol

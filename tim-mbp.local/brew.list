@@ -64,6 +64,7 @@ gperf
 graphite2
 graphviz
 harfbuzz
+hexyl
 htop
 httpie
 hub
@@ -73,6 +74,7 @@ imagemagick
 imagemagick@6
 influxdb
 jenv
+john-jumbo
 jpeg
 jq
 kafka
@@ -188,6 +190,7 @@ scala
 sdl2
 shellcheck
 snappy
+socat
 speedtest-cli
 speex
 sphinx-doc
