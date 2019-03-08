@@ -79,6 +79,8 @@ brew "dep"
 brew "dhall-json"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
 # YAML Parser
 brew "libyaml"
 # Isolated development environments using Docker
@@ -192,7 +194,7 @@ brew "nmap"
 # Platform built on V8 to build network applications
 brew "node@4"
 # Platform built on V8 to build network applications
-brew "node@6", link: true
+brew "node@6"
 # Manage multiple Node.js versions
 brew "nvm"
 # OpenBSD freely-licensed SSH connectivity tools
