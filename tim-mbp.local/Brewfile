@@ -85,6 +85,8 @@ brew "docker", link: false
 brew "libyaml"
 # Isolated development environments using Docker
 brew "docker-compose", link: false
+# Functional metaprogramming aware language built on Erlang VM
+brew "elixir"
 # Friendly and expressive shell
 brew "elvish"
 # C string library for manipulating Unicode strings
@@ -235,6 +237,8 @@ brew "rename"
 brew "ripgrep"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
 brew "ruby-install"
+# Safe, concurrent, practical language
+brew "rust"
 # Command-line tool for the Amazon S3 service
 brew "s3cmd"
 # Build tool for Scala projects

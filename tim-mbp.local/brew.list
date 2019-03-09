@@ -28,10 +28,12 @@ diff-so-fancy
 docker
 docker-compose
 docker-machine
+elixir
 elvish
 emacs
 emacs-mac
 emacs-plus
+erlang
 et
 ffmpeg
 findutils
@@ -184,6 +186,7 @@ rtmpdump
 rubberband
 ruby-build
 ruby-install
+rust
 s3cmd
 sbt
 scala
@@ -215,6 +218,7 @@ watch
 webp
 wget
 whatmask
+wxmac
 x264
 x265
 xvid
