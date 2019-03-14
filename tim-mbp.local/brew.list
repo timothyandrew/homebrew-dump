@@ -186,7 +186,7 @@ rtmpdump
 rubberband
 ruby-build
 ruby-install
-rust
+rustup-init
 s3cmd
 sbt
 scala

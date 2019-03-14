@@ -196,7 +196,7 @@ brew "nmap"
 # Platform built on V8 to build network applications
 brew "node@4"
 # Platform built on V8 to build network applications
-brew "node@6"
+brew "node@6", link: true
 # Manage multiple Node.js versions
 brew "nvm"
 # OpenBSD freely-licensed SSH connectivity tools
@@ -237,8 +237,8 @@ brew "rename"
 brew "ripgrep"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
 brew "ruby-install"
-# Safe, concurrent, practical language
-brew "rust"
+# The Rust toolchain installer
+brew "rustup-init"
 # Command-line tool for the Amazon S3 service
 brew "s3cmd"
 # Build tool for Scala projects
