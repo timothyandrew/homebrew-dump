@@ -79,6 +79,8 @@ brew "dep"
 brew "dhall-json"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Load/unload environment variables based on $PWD
+brew "direnv"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
 # YAML Parser
@@ -181,6 +183,8 @@ brew "md5sha1sum", link: false
 brew "mitmproxy"
 # Remote terminal application
 brew "mosh"
+# Multiple Repository management tool
+brew "mr"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
 # Tail multiple files in one terminal simultaneously
@@ -193,6 +197,8 @@ brew "nginx", restart_service: true
 brew "ninja"
 # Port scanning utility for large networks
 brew "nmap"
+# Platform built on V8 to build network applications
+brew "node@10", link: true
 # Platform built on V8 to build network applications
 brew "node@4"
 # Platform built on V8 to build network applications
@@ -233,6 +239,8 @@ brew "reattach-to-user-namespace"
 brew "redis"
 # Perl-powered file rename script with many helpful built-ins
 brew "rename"
+# Repository tool for Android development
+brew "repo"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
@@ -279,6 +287,8 @@ brew "typescript"
 brew "vault"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# Command-line tool to track (your) time
+brew "watson"
 # Internet file retriever
 brew "wget"
 # Network settings helper
@@ -333,6 +343,7 @@ cask "google-cloud-sdk"
 cask "gpg-suite"
 cask "hyper"
 cask "istat-menus"
+cask "little-snitch"
 cask "macdown"
 cask "macvim"
 cask "mailplane"

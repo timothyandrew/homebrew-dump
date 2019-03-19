@@ -25,6 +25,7 @@ coreutils
 dep
 dhall-json
 diff-so-fancy
+direnv
 docker
 docker-compose
 docker-machine
@@ -127,6 +128,7 @@ md5sha1sum
 mitmproxy
 mobile-shell
 mosh
+mr
 mtr
 multitail
 nasm
@@ -137,6 +139,7 @@ nginx
 ninja
 nmap
 node
+node@10
 node@4
 node@6
 npth
@@ -180,6 +183,7 @@ readline
 reattach-to-user-namespace
 redis
 rename
+repo
 ripgrep
 rlwrap
 rtmpdump
@@ -215,6 +219,7 @@ tree
 typescript
 vault
 watch
+watson
 webp
 wget
 whatmask
