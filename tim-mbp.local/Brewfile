@@ -125,6 +125,8 @@ brew "git"
 brew "glances"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
+# Asynchronous event library
+brew "libevent"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg", link: false
 # Generate introspection data for GObject libraries
@@ -161,8 +163,6 @@ brew "kafka"
 brew "leiningen"
 # CSS parsing and manipulation toolkit for GNOME
 brew "libcroco"
-# Asynchronous event library
-brew "libevent"
 # Postgres C API library
 brew "libpq"
 # Framework for layout and rendering of i18n text
@@ -360,6 +360,7 @@ cask "steam"
 cask "sublime-merge"
 cask "sublime-text"
 cask "tower"
+cask "transmission-remote-gui"
 cask "unified-remote"
 cask "vagrant"
 cask "virtualbox"
