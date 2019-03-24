@@ -105,6 +105,8 @@ brew "graphite2"
 brew "harfbuzz"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
+# Asynchronous event library
+brew "libevent"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Collection of GNU find, xargs, and locate
@@ -125,8 +127,6 @@ brew "git"
 brew "glances"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
-# Asynchronous event library
-brew "libevent"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg", link: false
 # Generate introspection data for GObject libraries

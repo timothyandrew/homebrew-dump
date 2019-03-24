@@ -195,6 +195,7 @@ s3cmd
 sbt
 scala
 sdl2
+shared-mime-info
 shellcheck
 snappy
 socat
