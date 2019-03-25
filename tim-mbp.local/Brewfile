@@ -113,8 +113,6 @@ brew "ffmpeg"
 brew "findutils"
 # Monitor a directory for changes and run a shell command
 brew "fswatch"
-# Command-line fuzzy finder written in Go
-brew "fzf"
 # User-space file system for interacting with Google Cloud
 brew "gcsfuse"
 # Graphics library to dynamically manipulate images
