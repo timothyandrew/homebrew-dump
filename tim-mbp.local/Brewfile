@@ -91,6 +91,8 @@ brew "docker-compose", link: false
 brew "elixir"
 # Friendly and expressive shell
 brew "elvish"
+# Asynchronous event library
+brew "libevent"
 # C string library for manipulating Unicode strings
 brew "libunistring"
 # Library to load and enumerate PKCS#11 modules
@@ -105,8 +107,6 @@ brew "graphite2"
 brew "harfbuzz"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
-# Asynchronous event library
-brew "libevent"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Collection of GNU find, xargs, and locate
