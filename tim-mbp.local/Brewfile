@@ -13,6 +13,7 @@ tap "homebrew/versions"
 tap "koekeishiya/formulae"
 tap "mistertea/et"
 tap "railwaycat/emacsmacport"
+tap "wix/brew"
 cask "java"
 cask "java8"
 cask "osxfuse"
@@ -285,6 +286,8 @@ brew "typescript"
 brew "vault"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# Watch files and take action when they change
+brew "watchman"
 # Command-line tool to track (your) time
 brew "watson"
 # Internet file retriever
@@ -309,6 +312,8 @@ brew "koekeishiya/formulae/kwm"
 brew "mistertea/et/et"
 # YAMAMOTO Mitsuharu's Mac port of GNU Emacs
 brew "railwaycat/emacsmacport/emacs-mac", link: false
+# Apple simulator utilities
+brew "wix/brew/applesimutils"
 cask "1password"
 cask "amethyst"
 cask "android-studio"

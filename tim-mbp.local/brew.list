@@ -3,6 +3,7 @@ antibody
 aom
 apache-flink
 apache-spark
+applesimutils
 aria2
 autoconf
 autojump
@@ -220,6 +221,7 @@ typescript
 unbound
 vault
 watch
+watchman
 watson
 webp
 wget
