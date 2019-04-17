@@ -99,7 +99,7 @@ brew "libunistring"
 # Library to load and enumerate PKCS#11 modules
 brew "p11-kit"
 # GNU Emacs text editor
-brew "emacs", args: ["with-cocoa"]
+brew "emacs"
 # Implementation of the Unicode BiDi algorithm
 brew "fribidi"
 # Smart font renderer for non-Roman scripts
@@ -242,6 +242,8 @@ brew "rename"
 brew "repo"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
 brew "ruby-install"
 # The Rust toolchain installer
