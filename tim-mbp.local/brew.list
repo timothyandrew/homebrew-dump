@@ -37,6 +37,8 @@ emacs-mac
 emacs-plus
 erlang
 et
+exa
+fd
 ffmpeg
 findutils
 fish
@@ -119,6 +121,7 @@ libvpx
 libyaml
 libzip
 little-cms2
+lsd
 lzo
 lzop
 magic-wormhole

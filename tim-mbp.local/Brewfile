@@ -98,6 +98,10 @@ brew "libunistring"
 brew "p11-kit"
 # GNU Emacs text editor
 brew "emacs"
+# Modern replacement for 'ls'
+brew "exa"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Implementation of the Unicode BiDi algorithm
 brew "fribidi"
 # Smart font renderer for non-Roman scripts
@@ -166,6 +170,8 @@ brew "libpq"
 brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
+# Clone of ls with colorful output, file type icons, and more
+brew "lsd"
 # File compressor
 brew "lzop"
 # Securely transfers data between computers
@@ -297,7 +303,7 @@ brew "whatmask"
 # JavaScript package manager
 brew "yarn"
 # Download YouTube videos from the command-line
-brew "youtube-dl"
+brew "youtube-dl", link: false
 # UNIX shell (command interpreter)
 brew "zsh"
 # GNU Emacs text editor
@@ -337,6 +343,7 @@ cask "firefox-beta"
 cask "flume"
 cask "flux"
 cask "font-hack"
+cask "font-hack-nerd-font"
 cask "font-inconsolata"
 cask "font-input"
 cask "font-iosevka"
