@@ -188,6 +188,8 @@ brew "md5sha1sum", link: false
 brew "mitmproxy"
 # Remote terminal application
 brew "mosh"
+# MP3 technical info viewer and ID3 1.x tag editor
+brew "mp3info"
 # Multiple Repository management tool
 brew "mr"
 # 'traceroute' and 'ping' in a single tool
@@ -322,8 +324,6 @@ brew "koekeishiya/formulae/kwm"
 brew "mistertea/et/et"
 # YAMAMOTO Mitsuharu's Mac port of GNU Emacs
 brew "railwaycat/emacsmacport/emacs-mac", link: false
-# Apple simulator utilities
-brew "wix/brew/applesimutils"
 cask "1password"
 cask "amethyst"
 cask "android-studio"
