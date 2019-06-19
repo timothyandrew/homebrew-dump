@@ -205,7 +205,7 @@ brew "ninja"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node@10"
+brew "node@10", link: true
 # Platform built on V8 to build network applications
 brew "node@4"
 # Platform built on V8 to build network applications
