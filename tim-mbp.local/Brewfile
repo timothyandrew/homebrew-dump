@@ -10,6 +10,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "homebrew/versions"
+tap "jesseduffield/lazydocker"
 tap "koekeishiya/formulae"
 tap "mistertea/et"
 tap "railwaycat/emacsmacport"
@@ -314,6 +315,8 @@ brew "zsh"
 brew "d12frosted/emacs-plus/emacs-plus", args: ["with-modern-icon", "without-spacemacs-icon"], link: false
 # The fastest shell plugin manager
 brew "getantibody/tap/antibody"
+# A simple terminal UI for docker, written in Go
+brew "jesseduffield/lazydocker/lazydocker"
 # Tiling window manager for macOS based on plugin architecture
 brew "koekeishiya/formulae/chunkwm"
 # Simple hotkey-daemon for OSX.
