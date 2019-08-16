@@ -153,6 +153,8 @@ brew "hub"
 brew "imagemagick"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick@6"
+# Static analyzer for Java, C, C++, and Objective-C
+brew "infer"
 # Time series, events, and metrics database
 brew "influxdb"
 # Manage your Java environment
