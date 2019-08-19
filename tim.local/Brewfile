@@ -333,6 +333,8 @@ brew "koekeishiya/formulae/kwm"
 brew "mistertea/et/et"
 # YAMAMOTO Mitsuharu's Mac port of GNU Emacs
 brew "railwaycat/emacsmacport/emacs-mac", link: false
+# Apple simulator utilities
+brew "wix/brew/applesimutils"
 cask "1password"
 cask "amethyst"
 cask "android-studio"
