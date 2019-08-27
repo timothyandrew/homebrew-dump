@@ -213,6 +213,8 @@ brew "node@10", link: true
 brew "node@4"
 # Platform built on V8 to build network applications
 brew "node@6", link: true
+# Modern shell for the GitHub era
+brew "nushell"
 # Manage multiple Node.js versions
 brew "nvm"
 # OpenBSD freely-licensed SSH connectivity tools
