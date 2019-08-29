@@ -133,6 +133,8 @@ brew "glances"
 brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg", link: false
+# Manage compile and link flags for libraries
+brew "pkg-config"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
 # Perfect hash function generator
@@ -315,6 +317,8 @@ brew "wget"
 brew "whatmask"
 # JavaScript package manager
 brew "yarn"
+# Modular BSD reimplementation of NASM
+brew "yasm"
 # Download YouTube videos from the command-line
 brew "youtube-dl", link: false
 # UNIX shell (command interpreter)
