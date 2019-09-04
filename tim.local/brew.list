@@ -38,6 +38,7 @@ emacs-plus
 erlang
 et
 exa
+fasd
 fd
 ffmpeg
 findutils
@@ -113,6 +114,7 @@ libsamplerate
 libsndfile
 libsodium
 libsoxr
+libssh
 libssh2
 libtasn1
 libtiff
@@ -183,6 +185,7 @@ pv
 python
 python3
 python@2
+qemu
 qpdf
 qt
 ranger
@@ -231,6 +234,7 @@ tree
 typescript
 unbound
 vault
+vde
 watch
 watchman
 watson

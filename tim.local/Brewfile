@@ -91,8 +91,6 @@ brew "docker-compose", link: false
 brew "elixir"
 # Friendly and expressive shell
 brew "elvish"
-# Asynchronous event library
-brew "libevent"
 # C string library for manipulating Unicode strings
 brew "libunistring"
 # Library to load and enumerate PKCS#11 modules
@@ -101,6 +99,8 @@ brew "p11-kit"
 brew "emacs"
 # Modern replacement for 'ls'
 brew "exa"
+# CLI tool for quick access to files and directories
+brew "fasd"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Implementation of the Unicode BiDi algorithm
@@ -201,6 +201,8 @@ brew "mr"
 brew "mtr"
 # Tail multiple files in one terminal simultaneously
 brew "multitail"
+# Netwide Assembler (NASM) is an 80x86 assembler
+brew "nasm"
 # NCurses Disk Usage
 brew "ncdu"
 # HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
@@ -241,6 +243,8 @@ brew "progress"
 brew "pstree"
 # Monitor data's progress through a pipe
 brew "pv"
+# x86 and PowerPC Emulator
+brew "qemu"
 # Tools for and transforming and inspecting PDF files
 brew "qpdf"
 # File browser
@@ -415,7 +419,6 @@ mas "Filters for Photos", id: 1083965373
 mas "GarageBand", id: 682658836
 mas "GIF Brewery 3", id: 1081413713
 mas "iMovie", id: 408981434
-mas "Irvue", id: 1039633667
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "Medis", id: 1063631769
