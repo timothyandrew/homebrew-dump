@@ -70,6 +70,7 @@ gobject-introspection
 gperf
 graphite2
 graphviz
+gts
 harfbuzz
 hexyl
 htop
@@ -81,6 +82,7 @@ imagemagick
 imagemagick@6
 infer
 influxdb
+jasper
 jenv
 john-jumbo
 jpeg
@@ -143,6 +145,7 @@ multitail
 nasm
 ncdu
 ncurses
+netpbm
 nettle
 nginx
 ninja

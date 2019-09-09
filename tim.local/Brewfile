@@ -45,6 +45,8 @@ brew "bat"
 brew "bazel"
 # Parser generator
 brew "bison"
+# Collection of portable C++ source libraries
+brew "boost"
 # XML-based font configuration API for X Windows
 brew "fontconfig"
 # GNU internationalization (i18n) and localization (l10n) library
@@ -343,6 +345,8 @@ brew "koekeishiya/formulae/kwm"
 brew "mistertea/et/et"
 # YAMAMOTO Mitsuharu's Mac port of GNU Emacs
 brew "railwaycat/emacsmacport/emacs-mac", link: false
+# Apple simulator utilities
+brew "wix/brew/applesimutils"
 cask "1password"
 cask "amethyst"
 cask "android-studio"
