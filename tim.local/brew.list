@@ -70,6 +70,7 @@ gobject-introspection
 gperf
 graphite2
 graphviz
+grep
 gts
 harfbuzz
 hexyl
