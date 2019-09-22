@@ -274,7 +274,7 @@ brew "rustup-init"
 # Command-line tool for the Amazon S3 service
 brew "s3cmd"
 # Build tool for Scala projects
-brew "sbt"
+brew "sbt", link: false
 # JVM-based programming language
 brew "scala"
 # Static analysis and lint tool, for (ba)sh scripts
