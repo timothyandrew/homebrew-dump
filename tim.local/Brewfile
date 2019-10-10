@@ -21,8 +21,6 @@ cask "xquartz"
 brew "apache-flink"
 # Engine for large-scale data processing
 brew "apache-spark"
-# SSL/TLS cryptography library
-brew "openssl"
 # Download with resuming and segmented downloading
 brew "aria2"
 # Shell extension to jump to frequently used directories
@@ -53,6 +51,8 @@ brew "fontconfig"
 brew "gettext"
 # Portable Foreign Function Interface library
 brew "libffi"
+# SSL/TLS cryptography library
+brew "openssl"
 # Low-level library for pixel manipulation
 brew "pixman"
 # Vector graphics library with cross-device output support
@@ -141,8 +141,6 @@ brew "pkg-config"
 brew "gobject-introspection"
 # Perfect hash function generator
 brew "gperf"
-# Generic library support script
-brew "libtool"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # GNU grep, egrep and fgrep
@@ -155,6 +153,8 @@ brew "htop"
 brew "httpie"
 # Add GitHub support to git on the command-line
 brew "hub"
+# Generic library support script
+brew "libtool"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Tools and libraries to manipulate images in many formats
@@ -367,6 +367,7 @@ cask "dash"
 cask "discord"
 cask "divvy"
 cask "docker"
+cask "fastlane"
 cask "filebot"
 cask "firefox-beta"
 cask "flume"
